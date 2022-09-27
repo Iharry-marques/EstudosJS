@@ -26,6 +26,6 @@ if (1 == 1 && 3> 2 && true) {
     console.log("Passou")
 }
 
-if (1 == 1 && 3> 3 && true) {
+if ((1 == 1 && 3> 3) && true) {
     console.log("Passou")
 }
