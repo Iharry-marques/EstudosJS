@@ -237,7 +237,7 @@ OBS: * Pseudocódigo não é uma linguagem de programação
 
     5. Qual é a sequência de passos a ser feitas para chegar ao resultado esperado ?
 
-    input: palavra usada para receber dados do usuário
+    (input: palavra usada para receber dados do usuário
 
     print: exibir algo
 
@@ -249,4 +249,64 @@ OBS: * Pseudocódigo não é uma linguagem de programação
 
     Loop x em Y: laço de repetição que irá iterar X em uma coleção Y
 
-    While X: laço de repetição que acontecerá enquanto um condição for verdadeira
+    While X: laço de repetição que acontecerá enquanto um condição for verdadeira)
+
+        input valor_aleatorio entre 1 a 10
+        acertou = falso
+        while acertou = falso
+        input chute
+        if chute > valor_aleatorio
+                print "Chute é maior que valor gerado"
+        if chute <valor_aleatorio
+                print "Chute é menor que valor gerado"
+        if chute = valor_aleatorio
+                print "Acertou o chute"
+                acertou = verdadeiro
+        else 
+                print "Chutou valor invalido"
+
+** Não existe pseudocódigo perfeito **
+* é absolutamente normal achar dificil no 1° contato
+
+- Fluxogramas - uma representação visual gráfica de um algorítimo.
+
+Aula de Python
+
+anotações
+# Variáveis 
+
+velocidade_internet = 10
+================================================
+
+1. Crie um programa que retorne o valor hora de um funcionário com base no seu salário mensal e horas trabalhadas por mês.
+
+input salario_mensal
+input horas_trabalhadas_por_mes
+valor_hora = salario_mensal / horas_trabalhadas_por_mes
+print valor_hora
+
+
+no python ===
+
+salario_mensal = input('Qual é o seu salario mensal ?')
+horas_trabalhadas_por_mes = input('Quantas horas trabalha por mês ?')
+
+valor_hora = int(salario_mensal) / int(horas_trabalhadas_por_mes)
+
+print(valor_hora)
+
+salario_mensal = input('Qual é o seu salario mensal ?')
+horas_trabalhadas_por_mes = input('Quantas horas trabalha por mês ?')
+
+valor_hora = int(salario_mensal) / int(horas_trabalhadas_por_mes)
+
+print(valor_hora)
+
+
+
+
+
+
+
+
+
