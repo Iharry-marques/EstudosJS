@@ -355,3 +355,24 @@ if primeiro_valor > segundo valor
 else
         print o segundo valor é maior
 
+primeiro_valor = input('Digite o 1° valor: ')
+segundo_valor = input('Digite o 2° valor: ')
+
+if int(primeiro_valor) > int(segundo_valor):
+  print('O primeiro valor é maior !')
+else:
+  print('O segundo valor é maior')
+
+===================================================================
+
+Laços de repetição + Listas
+
+for palavra in range (1,4):
+  print('carregando')
+
+for item in coleção:
+    espressão
+
+
+for item in range(1,20):
+  print(item)
